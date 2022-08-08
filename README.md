@@ -9,3 +9,5 @@
 🕹️ I'm currently a web development student at Trybe and i'm interested in HTML, CSS, JAVASCRIPT.
 
 📬 If you are interested in connecting with me, send me an email to marcomaurer@gmail.com
+
+I currently live in Brazil, but I'm in love with Canada and I intend to immigrate there.
