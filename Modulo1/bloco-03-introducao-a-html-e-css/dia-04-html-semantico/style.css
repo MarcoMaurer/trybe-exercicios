@@ -1,16 +1,23 @@
 * {
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFC2C8;
 }
-
-section {
-    border: 2px solid black;
+#header {
+    text-align: center;
 }
+#article-title {
+    text-align: center;
+}
+/* section {
+    border: 2px solid black; */
 
 table{
     border: 1px solid black;
-    border-collapse: collapse; 
+    border-collapse: collapse;
+    margin: auto; 
+    background-color: aliceblue;
 }
 td{
     border: 1px solid black;
@@ -19,17 +26,36 @@ td{
 }
 .display-inline {
     display: inline-block;
+    background-color: #FF6978;
+    margin: 0 auto;
+    text-align: center;
 }
 nav{
     margin-left: 20px;
     border: 3px solid black;
     padding: 10px;
 }
+
+#image1 {
+    float: left;
+}
+#image2 {
+    float: left;
+}
+#image3 {
+    float: left;
+}
+.clearfix {
+    overflow: auto; 
+}
 a:hover {
     text-decoration: none;
     color: black;
 }
 .video-aside {
-    display: inline-block;
+    display: inline;
+}
+footer{
+    text-align: center;
 }
    
