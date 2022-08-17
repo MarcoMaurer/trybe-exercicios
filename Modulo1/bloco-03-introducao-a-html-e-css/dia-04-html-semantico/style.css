@@ -1,0 +1,28 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+td{
+    border: 1px solid black;
+    width: 100px;
+    padding: 6px;
+}
+.display-inline {
+    display: inline-block;
+}
+nav{
+    margin-left: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+.video-aside {
+    display: inline-block;
+
+}
+footer {
+
+}
