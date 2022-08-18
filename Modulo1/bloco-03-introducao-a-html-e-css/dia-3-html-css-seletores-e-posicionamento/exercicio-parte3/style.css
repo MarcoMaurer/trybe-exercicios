@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+li:hover{
+    background-color: yellowgreen;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li:active{
+    font-family: verdana;
+}
+ol, ul {
+    list-style: none;
+}
