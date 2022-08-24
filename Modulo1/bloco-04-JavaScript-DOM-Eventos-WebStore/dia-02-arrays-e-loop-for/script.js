@@ -304,18 +304,18 @@
     
 // }
 
-arrayTeste = [2,3,2,5,8,2,3];
-novaArray = [];
+// arrayTeste = [2,3,2,5,8,2,3];
+// novaArray = [];
 
-function numerosInteiros(arrayTeste) {
-    for(let index = 0; index <= index.length; index += 1) {
-        if(index[0] === index[length]);
-    numerosInteiros += novaArray; 
-    }
-   return numerosInteiros;
-}
+// function numerosInteiros(arrayTeste) {
+//     for(let index = 0; index <= index.length; index += 1) {
+//         if(index[0] === index[length]);
+//     numerosInteiros += novaArray; 
+//     }
+//    return numerosInteiros;
+// }
 
-console.log(numerosInteiros)
+// console.log(numerosInteiros)
 
 
 
