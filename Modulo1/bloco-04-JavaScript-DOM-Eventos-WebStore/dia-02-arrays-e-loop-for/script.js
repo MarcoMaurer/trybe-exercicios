@@ -104,19 +104,218 @@
 
 // exercicio 05:
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorValorDoArray = [0]
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let maiorValorDoArray = [0]
 
 
-for (let index = 0; index < numbers.length; index += 1) {
-    console.log(numbers[index])
-    for (let numeroMaior = numbers[index]; maiorValorDoArray < numbers.length; index +1) {
-        console.log(maiorValorDoArray)
+// for (let index = 0; index < numbers.length; index += 1) {
+//     console.log(numbers[index])
+//     for (let numeroMaior = numbers[index]; maiorValorDoArray < numbers.length; index +1) {
+//         console.log(maiorValorDoArray)
+//     }
+//     }
+
+// const n = 9 ;
+
+// let resultado = 100;
+// for (let index = 0; index <= n; index += 1) {
+//   resultado -= index;
+// };
+// console.log(resultado);
+
+
+
+// 1 - 
+// Faça um algoritmo que calcule a soma de 1 a 50 usando a estrutura "for" e retorne no formato:
+// A soma total de 1 a 50 é:
+
+// let sum = 0;
+// for (let index = 1; index <= 50; index += 1) {
+//     sum += index
+// }
+//  console.log(sum);
+
+
+//2 -
+
+// Crie um algoritmo que conte quantos números do intervalo entre 2 e 150 são divisíveis por 3.
+// Caso a quantidade seja igual a 50, exiba uma mensagem secreta.
+
+// let resultado = 0;
+
+// for (let index = 2; index <= 150; index += 1) {
+//     if (index % 3 === 0) {
+//         resultado++
+//     }
+// }
+// console.log("Mensagem secreta " + resultado);
+
+// let fatorial = 1;
+
+// for (let index = 10; index > 0; index -= 1) {
+//     fatorial *= index;
+    
+// }
+// console.log(fatorial)
+
+// let word = "Trybe"
+// let reverseWord = ""
+
+// for (let index = 0; index < word.length; index += 1) {
+//     reverseWord += word[word.length - 1 - index];
+    
+// }
+// console.log(reverseWord)
+
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+// let maiorPalavra = "";
+// let menorPalavra = "";
+
+// for (let index = 0; index < array.length; index += 1) {
+//     if (array[index].length > menorPalavra[index].length) {
+//         maiorPalavra += array[maiorPalavra ];
+//     }
+    
+// }
+
+// 
+
+// let conta = {
+//     agencia: '0000',
+//     banco: {
+//       cod: '012',
+//       id: 4,
+//       nome: 'TrybeBank',
+//     },
+//   };
+  
+//   let infoDoBanco = 'banco';
+//   console.log(conta[infoDoBanco]); // { cod: '012', id: 4, nome: 'TrybeBank' }
+//   console.log(conta[infoDoBanco]['nome']); // TrybeBank
+  
+//   console.log(conta.agencia); // 0000
+//   console.log(conta['agencia']); // 0000
+  
+//   console.log(conta.banco.cod); // 012
+//   console.log(conta['banco']['id']); // 4
+
+// 
+
+// let names = {
+//     person1: 'João',
+//     person2: 'Maria',
+//     person3: 'Jorge',
+//   };
+
+//   for (let name in names) {
+//     console.log("Olá, " + names[name])
+//   }
+
+
+// let car = {
+//     model: 'A3 Sedan',
+//     manufacturer: 'Audi',
+//     year: 2020
+//   };
+
+//   for (let index in car){
+//     console.log(index, car[index])
+//   }
+
+//   let car = {
+//     model: 'A3 Sedan',
+//     manufacturer: 'Audi',
+//     year: 2020,
+//   };
+  
+//   for (let key in car) {
+//     console.log(key + ': ' + car[key]);
+//   }
+
+// 
+
+// let info = {
+//     personagem: 'Margarida',
+//     origem: 'Pato Donald',
+//     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+//     recorrente: 'Sim',
+//   };
+
+//   console.log("Bem-vinda, " + info.personagem + ".")
+
+// //   for (let key in info) {
+// //     console.log(key)
+// //         }
+
+// for (let value in info) {
+//         console.log(info[value])
+//     }
+
+
+// let leitor = {
+//     nome: 'Julia',
+//     sobrenome: 'Pessoa',
+//     idade: 21,
+//     livrosFavoritos: [
+//       {
+//         titulo: 'O Pior Dia de Todos',
+//         autor: 'Daniela Kopsch',
+//         editora: 'Tordesilhas',
+//       },
+//     ],
+//   };
+//   console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + leitor.livrosFavoritos[0].titulo)
+
+//   leitor.livrosFavoritos.push(
+//     {
+//         titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//         autor: 'JK Rowling',
+//         editor: 'Rocco',
+//     }
+
+//   )
+
+// console.log(leitor)
+
+// console.log(leitor.nome + " tem " + leitor.livrosFavoritos.length + " livros favoritos.")
+
+
+// function verificaPalindrome(word) {
+// for(index in word) {
+//     if(word[index] != word[(word.length - 1) - index]) {
+//         return false;
+//     }
+// }
+// return true;
+// }
+
+// function verificaPalindrome(string) {
+//     let reverse = string.split("").reverse().join("");
+//     return reverse;
+// }
+
+// console.log(verificaPalindrome("arara"))
+// console.log(verificaPalindrome("desenvolvimento"));
+
+// function inteiros () {
+//  for(let index = 0; index <= index.length; index += 1)
+//     index[0]    
+    
+// }
+
+arrayTeste = [2,3,2,5,8,2,3];
+novaArray = [];
+
+function numerosInteiros(arrayTeste) {
+    for(let index = 0; index <= index.length; index += 1) {
+        if(index[0] === index[length]);
+    numerosInteiros += novaArray; 
     }
-    }
+   return numerosInteiros;
+}
 
-
-
+console.log(numerosInteiros)
 
 
 
