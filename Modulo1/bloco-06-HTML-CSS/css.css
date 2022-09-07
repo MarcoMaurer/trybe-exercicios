@@ -5,14 +5,14 @@
 }
 
 .body {
-    background-image: linear-gradient(to bottom, #5db160, #afcbb0 );
+    background-image: linear-gradient(to bottom, #4ea551, #afcbb0 );
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.3;
 }
 
 .header1 {
-    border: solid 1px black;
+    border: 1px solid black;
     text-align: center;
     border-radius: 5px;
     width: 80%;
@@ -20,24 +20,48 @@
     padding: 30px;
 }
 
-#forms {
-    border: solid 1px black;
+/* .div1 {
+    background-color: #afcbb0; 
+} */
+
+.forms {
+    border: 1px solid black;;
     padding: 20px;
     margin-top: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto 40px auto;
+    padding: 50px;
+}
+
+.nome-completo input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.digite-email input[type="email"] {
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px;
 }
 
 textarea {
     width: 100%;
+    resize: none;
+    border-radius: 3px;
     
 }
 
 footer {
     border: solid 1px black;
+    text-align: center;
 }
 
 #botoes {
     margin-top: 25px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #buton1 {
@@ -55,15 +79,15 @@ footer {
     box-shadow: 0 9px #999;
   }
   
-  #buton1:hover {background-color: #3e8e41}
+#buton1:hover {background-color: #3e8e41}
   
-  #buton1:active {
+#buton1:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 
-  #buton2 {
+#buton2 {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -78,9 +102,9 @@ footer {
     box-shadow: 0 9px #999;
   }
   
-  #buton2:hover {background-color: #3e8e41}
+#buton2:hover {background-color: #3e8e41}
   
-  #buton2:active {
+#buton2:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);

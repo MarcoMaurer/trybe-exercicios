@@ -12,31 +12,34 @@
             <h1 class="h1">Formulário pessoa estudante:</h1>
         </header>
         <main id="mains">
-            <div id="forms">
-                <form action="" method="get" enctype="multipart/form-data">
-                    <div>
+            <div class="div1">
+                <form action="" method="get" class="forms">
+                    <div class="nome-completo">
                         <label for="myname">Nome completo:
-                            <input type="text" id="myname" placeholder="Nome completo" autocomplete="off" autofocus="autofocus" maxlength="40" required>
+                            <input type="text" name="full-name" id="myname" placeholder="Nome completo" autocomplete="off" autofocus="autofocus" maxlength="40" required>
                         </label>
                     </div>
                     <br>
-                    <div>
+                    <div class="digite-email">
                         <label for="myemail">Email:
-                            <input type="email" id="myemail" placeholder="e-mail" maxlength="50" required>
+                            <input type="email" name="email" id="myemail" placeholder="e-mail" maxlength="50" required>
                         </label>
                     </div>
                     <br>
-                    <div>
-                        <label for="myoptions">Destino Preferido:
-                            <br>
-                            <input type="radio" name="options" id="myoptions"> Cidade
-                            <input type="radio" name="options" id="myoptions"> Campo
-                            <input type="radio" name="options" id="myoptions"> Praia
-                            <input type="radio" name="options" id="myoptions"> Montanhas
-                        </label>
+                    <div class="minhasopcoes">
+                        <fieldset>
+                            <legend>Destino Preferido</legend>
+                            <label for="myoptions">
+                                <br>
+                                <input type="radio" name="prefer-living" id="myoptions"> Cidade
+                                <input type="radio" name="prefer-living" id="myoptions"> Campo
+                                <input type="radio" name="prefer-living" id="myoptions"> Praia
+                                <input type="radio" name="prefer-living" id="myoptions"> Montanhas
+                            </label>
+                        </fieldset>
                     </div>
                     <br>
-                    <div>
+                    <div class="escrever-texto">
                         <label for="escrevaaqui"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?:
                             <textarea name="textarea" id="escrevaaqui" cols="30" rows="10" maxlength="500" placeholder="Limitado a 500 caracteres"></textarea>
                         </label>
@@ -54,17 +57,18 @@
                     </div>
                     <div>
                         <label for="agree2"></label>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
-                        <input type="checkbox" name="concordo1" id="agree2" value="concordo2">
+                        <input type="checkbox" name="concordo2" id="agree2" value="concordo2">
                     </div>
                     <br>
+                    <div id="botoes">
+                        <button id="buton1" type="submit">Enviar</button>
+                        <button id="buton2" type="submit">Apagar</button>
+                    </div>
                 </form>
             </div>
         </main>
         <footer>
-            <div id="botoes">
-                <button id="buton1" type="submit">Enviar</button>
-                <button id="buton2" type="submit">Apagar</button>
-            </div>
+            <p>Direitos reservados ao estudante #Tryber Marco Vinicius Maurer.</p>
         </footer>
         <script src="script.js"></script>
     </body>
