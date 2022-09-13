@@ -56,6 +56,7 @@ textarea {
 footer {
     border: solid 1px black;
     text-align: center;
+    padding: 10px;
 }
 
 #botoes {
@@ -109,3 +110,16 @@ footer {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+.result-form {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.hidden {
+    display: none;
+}
