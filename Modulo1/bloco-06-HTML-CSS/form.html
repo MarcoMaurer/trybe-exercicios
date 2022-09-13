@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body class="body">
+        <header class="header1">
+            <h1 class="h1">Formulário pessoa estudante:</h1>
+        </header>
+        <main id="mains">
+            <div class="div1">
+                <form action="" method="get" class="forms">
+                    <div class="nome-completo">
+                        <label for="myname">Nome completo:
+                            <input type="text" name="full-name" id="myname" placeholder="Nome completo" autocomplete="off" autofocus="autofocus" maxlength="40" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div class="digite-email">
+                        <label for="myemail">Email:
+                            <input type="email" name="email" id="myemail" placeholder="e-mail" maxlength="50" required>
+                        </label>
+                    </div>
+                    <br>
+                    <div class="minhasopcoes">
+                        <fieldset>
+                            <legend>Destino Preferido</legend>
+                            <label for="myoptions">
+                                <br>
+                                <input type="radio" name="prefer-living" id="myoptions1" value="city"> Cidade
+                                <input type="radio" name="prefer-living" id="myoptions2" value="camp"> Campo
+                                <input type="radio" name="prefer-living" id="myoptions3" value="beach"> Praia
+                                <input type="radio" name="prefer-living" id="myoptions4" value="montains"> Montanhas
+                            </label>
+                        </fieldset>
+                    </div>
+                    <br>
+                    <div class="escrever-texto">
+                        <label for="escrevaaqui"> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?:
+                            <textarea name="textarea" id="escrevaaqui" cols="30" rows="10" maxlength="500" placeholder="Limitado a 500 caracteres"></textarea>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="data">Qual a melhor data para realizar sua viagem?
+                            <input type="date" name="data" id="data">
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="agree1"></label>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                        <input type="checkbox" name="concordo1" id="agree1" value="receive-news-letter">
+                    </div>
+                    <div>
+                        <label for="agree2"></label>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                        <input type="checkbox" name="concordo2" id="agree2" value="use-vacacion-pictures">
+                    </div>
+                    <br>
+                    <div id="botoes">
+                        <button id="buton1" type="submit">Enviar</button>
+                        <button id="buton2" type="reset">Apagar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="result-form hidden">
+                <h3>Resultado:</h3>
+                <p id="resultado"></p>
+            </div>
+        </main>
+        <footer>
+            <p>Direitos reservados ao estudante #Tryber Marco Vinicius Maurer.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
