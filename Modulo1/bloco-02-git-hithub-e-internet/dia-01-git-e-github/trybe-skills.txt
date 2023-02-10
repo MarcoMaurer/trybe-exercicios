@@ -1,7 +1,0 @@
-unix
-bash
-git
-python
-backend
-frontend
-
